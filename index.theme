@@ -1,0 +1,12 @@
+[Icon Theme]
+Name=Tulasi
+Comment=Tulasi pixel art icon theme
+Inherits=Adwaita,hicolor
+Directories=scalable/apps
+
+[scalable/apps]
+Context=Applications
+Size=48
+MinSize=1
+MaxSize=512
+Type=Scalable
