@@ -1,174 +1,129 @@
 # Tulasi
-### a pixel art icon pack for Linux. designed by an artist.
+### The most aesthetic icon pack for Linux. designed by an artist.
 
-<img width="5643" height="1620" alt="COver" src="https://github.com/user-attachments/assets/9b0b648a-951a-4963-ba4e-804184629b2c" />
+<img width="5643" height="1620" alt="Cover" src="https://github.com/user-attachments/assets/9b0b648a-951a-4963-ba4e-804184629b2c" />
 
+Tulasi is a handcrafted 32x32 pixel art icon pack for Linux desktops. Every single icon is drawn pixel by pixel in Aseprite, built with a uniform silhouette and a tactile visual grammar.
 
-every icon in Tulasi is pixel art. 32x32. uniform shape. consistent visual grammar.
-
-but it's not just aesthetic — each icon is designed to actually communicate something about the app it represents. if an app is good, it deserves an icon that says so.
-
----
-
-
-## why this exists
-
-I have ADHD. and GNOME's default icons are all over the place — different shapes, different styles, different weights. every time I looked at my dock my brain had to work harder than it should just to find things.
-
-I tried existing icon packs. they were either too generic, too flat, or just a reskin of the same boring template. nothing felt intentional.
-
-so I made my own. <3
-
-<img width="3762" height="1212" alt="EX1" src="https://github.com/user-attachments/assets/adc604b4-db91-45b3-bf1e-8e4deb3bfe45" />
-
-<img width="3776" height="1212" alt="EX2" src="https://github.com/user-attachments/assets/4858b624-9f1f-4b82-8e87-3e5bc2001aa6" />
-
-## the Pamac moment
-
-When I first came to Linux from Windows, I hid Pamac for weeks. The icon looked like something that would break my OS if I touched it. turns out it's one of the best package managers on Linux — friendly, visual, genuinely useful for anyone coming from Windows or Mac.
-
-I didn't know that because the icon never gave me a reason to click it. That's a design failure.
-
-The Pamac icon in Tulasi is a Pac-Man ghost. friendly. approachable. Click it, and suddenly you know how to manage your packages. That's not dumbing Linux down. That's just good design.
-
-The CMake icon isn't just replicating the existing logo — the center line represents the bridge between raw source code and your machine. The small bits around it are the compilation process itself. you don't need to know that to use it. but if you see it, get curious, and look it up — your entire perception of what a build system does has just changed.
-
-that's the halo effect working *for* Linux instead of against it.
+If you are looking for an aesthetic Linux icon theme, a consistent pixel art style for your desktop setup, or a clean icon pack for KDE Plasma, GNOME, and tiling window managers (Hyprland, Sway, i3), Tulasi was designed to replace the visual clutter of mismatched icons with something intentional, cohesive, and calm.
 
 ---
 
+## Why Tulasi Exists
 
+I grew up on Windows. But over the last few years, watching the system degrade with forced telemetry, bloat, instability, and intrusive AI slop made me want to get away. I wanted to own my machine again and support open source software, and that brought me to Linux.
+
+When I switched, I loved the freedom, but the desktop visuals felt disjointed. 
+
+I have ADHD, and default Linux icon sets are often chaotic. Every app has a different shape, an uneven visual weight, and inconsistent styling. Every time I looked at my dock or application launcher, my brain had to do extra work just to scan and recognize software. 
+
+Tulasi was created to fix that cognitive load. By giving every application an identical 32x32 base silhouette, the visual noise disappears. Your dock looks unified, and your brain stops fighting clutter.
+
+<img width="3762" height="1212" alt="Preview 1" src="https://github.com/user-attachments/assets/adc604b4-db91-45b3-bf1e-8e4deb3bfe45" />
 
 ---
 
-## the community support <3
+## Design Language: Tactile & Meaningful
 
-before Tulasi even officially dropped, the Linux community showed up in a massive way — **67k+ views, 900+ upvotes, and nearly 700 shares on Reddit**, plus over **150 GitHub stars** pre-release.
+Icons shouldn't feel like flat, sterile vector templates, and they shouldn't intimidate users. Tulasi icons are drawn with depth and subtle borders so they feel tangible and tactile on your screen. More importantly, each icon is designed to communicate what the software actually represents.
 
-you all proved one thing: Linux deserves good design. to everyone who supported, shared, and resonated with this — thank you. <3
+### The Pamac Moment
+When I first arrived on Linux, I hid Pamac for weeks. The default icon looked like a scary maintenance tool that would break my system if I touched it. It turned out to be one of the friendliest, most useful package managers on Linux. 
 
+That was a design failure. An icon should invite people in, not scare them away. 
+
+In Tulasi, the Pamac icon is reimagined as an approachable Pac-Man ghost. Click it, and you instantly feel comfortable managing software. That is good design working for Linux instead of against it.
+
+### The CMake Design
+The CMake icon in Tulasi doesn't just copy the standard geometric logo. The center vertical line represents the bridge between raw source code and the machine, and the surrounding blocks represent the compilation steps. You do not need to know that to use it, but if you notice it, it tells a story about what build systems actually do.
 
 ---
 
-## installation
+## Community Response
 
-### method 1 — manual (recommended)
+What started as a small personal project quickly turned into an open source community effort. 
 
-1. download the latest release zip and extract it
-2. move the `Tulasi` folder to your icons directory:
+Within 48 hours of posting the concept on Reddit, the post reached over 120,000 views, 600+ upvotes, and hundreds of encouraging comments from people who wanted better design on the Linux desktop. Tulasi was also picked up and featured on Chinese Linux and tech websites, bringing total impressions past 130,000 worldwide. 
+
+Seeing people star the repo, use it in their desktop rices, and even create community forks while I had to temporarily step away due to family hardship is the reason this project is back and officially moving out of alpha into its first full release.
+
+---
+
+## The Three Editions
+
+* **Tulasi (Full Theme):** Contains the complete icon set, including application icons, folders, places, actions, and system status glyphs. Ideal for KDE Plasma, XFCE, and deeply customizable environments.
+* **Tulasi-Gnome:** An applications-only version tailored specifically for GNOME Shell. It only skins third-party applications and leaves your native Adwaita folders, top bar, and shell chrome untouched.
+* **tulasi.Noir:** A high-contrast monochromatic version built for dark mode, OLED screens, and minimal tiling setups. Every icon is mapped using perceptual luminance math ($Y = 0.299R + 0.587G + 0.114B$) to stay clear and recognizable. It links directly into KDE text and accent colors.
+
+---
+
+## What is New in Release 01
+
+* **Moved from PNG bloat to singular SVGs:** Replaced heavy multi-size raster folders with single scalable SVGs. Connected pixel paths are merged directly in the vector code, dropping file sizes to 1-4 KB per icon and dramatically improving performance on low-end hardware.
+* **Dolphin Seam Bug Fixed:** Rebuilt every icon on a strict 1:1 integer coordinate grid with crisp edge rendering. This completely fixes the faint white lines and micro-gaps that used to appear in KDE Dolphin and file pickers.
+* **150+ Master App Icons:** Added high-demand software including Krita, Blender, FreeCAD, Telegram, Teams for Linux, Proton suite (Mail, VPN, Pass), Strawberry Music Player, Lollypop, Surfshark, Microsoft 365, VirtualBox, GNOME Boxes, Floorp, and more.
+* **Over 1,000 Desktop Symlinks:** Expanded symlinks mapped to standard desktop IDs, ensuring broad out-of-the-box support for Flatpak (reverse-DNS), Snap, AppImage, and native distro installs.
+* **Fixed Folder Favicons:** Resolved the issue where Downloads, Pictures, and Videos fell back to generic folder icons instead of their proper symbolic glyphs.
+
+---
+
+## Installation
+
+### Manual Install (Recommended)
+
+1. Download the latest release from the Releases tab and extract it.
+2. Move the theme folders into your local icons directory:
    ```bash
-   mv Tulasi ~/.local/share/icons/
+   mkdir -p ~/.local/share/icons
+   cp -r Tulasi Tulasi-Gnome Tulasi-Monochromatic ~/.local/share/icons/
    ```
-3. refresh the icon cache:
+3. Update your icon cache:
    ```bash
-   gtk-update-icon-cache ~/.local/share/icons/Tulasi/
+   gtk-update-icon-cache -f ~/.local/share/icons/Tulasi
+   gtk-update-icon-cache -f ~/.local/share/icons/Tulasi-Gnome
+   gtk-update-icon-cache -f ~/.local/share/icons/Tulasi-Monochromatic
    ```
 
-### method 2 — one-liner
+### Quick Clone
+
 ```bash
-git clone https://github.com/shringarstudio/tulasi ~/.local/share/icons/Tulasi
-gtk-update-icon-cache ~/.local/share/icons/Tulasi/
+git clone https://github.com/ShringarStudio/Tulasi.git ~/.local/share/icons/Tulasi
+gtk-update-icon-cache -f ~/.local/share/icons/Tulasi
 ```
 
 ---
 
-## applying the theme
+## Applying the Theme
 
-### GNOME
-install [GNOME Tweaks](https://gitlab.gnome.org/GNOME/gnome-tweaks) if you haven't already:
-```bash
-flatpak install flathub org.gnome.tweaks
-```
-then go to **Tweaks → Appearance → Icons → Tulasi**
-
-### KDE Plasma
-go to **System Settings → Appearance → Icons → Install from File** and select the zip, or move the folder to `~/.local/share/icons/` and select Tulasi from the list.
+* **KDE Plasma:** Open **System Settings → Appearance → Icons**, select **Tulasi** (or **tulasi.Noir**), and click Apply.
+* **GNOME:** Install GNOME Tweaks (`flatpak install flathub org.gnome.tweaks`), open **Tweaks → Appearance → Icons**, and select **Tulasi-Gnome**.
 
 ---
 
-## app coverage
+## Requesting Icons
 
-any app not listed here will fall back to your system theme (Adwaita on GNOME, Breeze on KDE).
-
-**browsers** — Firefox (native + Flatpak), Brave, Vivaldi, Zen Browser, LibreWolf
-
-**creative & design** — Blender (native + Flatpak), Aseprite, PureRef, Figma Linux, Kdenlive (native + Flatpak), FreeCAD, GIMP *(coming soon)*
-
-**development** — Visual Studio Code, Godot Engine, Eclipse IDE, GitHub Desktop, Meld, RenderDoc, CMake
-
-**gaming** — Steam, Lutris, Heroic Games Launcher, Bottles, Protontricks, Winetricks
-
-**system & utilities** — Nautilus, GNOME Settings, GNOME Calculator, Disk Utility, File Roller, System Monitor, GNOME Tweaks, GNOME Software, GNOME Disks, Simple Scan, GNOME Extensions, Extension Manager, Dolphin, Ark, Konsole, KDE Partition Manager, Alacritty, htop, LocalSend, qBittorrent, Upscayl, Timeshift, FileZilla, GOverlay, Gear Lever
-
-**media** — Tauon Music Box, Elisa, AudioTube, KDE Recorder, OBS Studio (native + Flatpak), Showtime
-
-**notes & productivity** — Obsidian, Blanket, FeedFlow, GNOME World Secrets, Akregator
-
-**communication** — Discord, Vesktop
-
-**other** — Pins, Add Water, Penpot Desktop, NVIDIA Settings, Java (OpenJDK), Parental Controls, Winetricks, KDE Help Center, Kalk, KDE Clock, Kontrast, Arianna, KDE Weather
+If an application you use is missing an icon:
+1. Check existing GitHub issues to see if it is already logged.
+2. If not, open an issue including:
+   * The software name.
+   * The desktop entry icon line (found via `grep "^Icon=" /usr/share/applications/<app>.desktop`).
+   * How you installed it (native repo, Flatpak, or Snap).
 
 ---
 
-## manual setup (for unsupported apps)
+## Supporting the Project
 
-some apps like **Eclipse**, **SKLauncher**, and **Helium Browser** don't use standard icon theme names. to use Tulasi icons for these, edit their `.desktop` file:
+Tulasi is free and will always remain free.
 
-1. copy the app's `.desktop` file to your local applications folder:
-   ```bash
-   cp /usr/share/applications/eclipse.desktop ~/.local/share/applications/
-   ```
-2. open it in a text editor and change the `Icon=` line to the full path:
-   ```ini
-   Icon=/home/yourusername/.local/share/icons/Tulasi/scalable/apps/eclipse.svg
-   ```
+If you enjoy the icon pack and want to help me continue working on it, you can support the project on [Gumroad](https://gumroad.com/...) *(insert your link here)*. 
+
+My family has been going through severe financial difficulty recently, so any direct support helps keep the electricity and internet running so I can keep designing. If you cannot support financially, starring the repository or sharing Tulasi with other Linux users helps just as much.
 
 ---
 
-## flatpak vs native
+## License
 
-many apps are available both as native packages and Flatpaks — Tulasi covers both. for example Firefox has both `firefox.svg` (native) and `org.mozilla.firefox.svg` (Flatpak) so it works regardless of how you installed it.
+Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Free to use and share for non-commercial purposes with attribution.
 
----
-
-## status
-
-Tulasi is officially released!! 🎉
-
-- icons are SVGs, crisp at any size, ready to apply to your desktop
-- The roster of supported apps is constantly growing
-- this is still a work in progress and more apps will be added regularly
-- want a specific app covered? open an issue and I'll add it to the roadmap!
-
----
-
-## contribution & Future Plans
-
-missing an icon for your favourite app? open an issue or submit a PR! include:
-- the app name
-- the icon name (run `grep "^Icon=" /path/to/app.desktop`)
-- a reference image of the original icon
--  **Expanding Coverage:** New icons are added regularly.
--  **Rices:** I’m planning to release full desktop configurations to match the Tulasi aesthetic soon
-I am a **UI/UX and branding designer**, not a developer. While I handle the art and visual grammar, **I need your help with the code!** If you know how to improve packaging, scripts, or system integration, please jump in.
-
----
-
-## license
-
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — credit Shringar Studio, don't sell it, that's it really.
-
----
-
-## support
-
-Tulasi is free and always will be. if it made your desktop feel better, you can support the work here — *(Buy Me a Coffee link coming soon)*
-
-## Contact
-
-notonlinux@gmail.com
-
----
-
-*built by a branding & product designer with <3 for Linux*
-*because Linux deserves good design too.*
+Designed with care by **Lee** ([Shringar Studio](https://github.com/ShringarStudio))  
+Contact: `notonlinux@gmail.com`

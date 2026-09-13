@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg viewBox="0 0 32 32" version="1.1" width="512" height="512" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <path fill="#023487" d="M14 24h1v2h-1z M20 24h1v2h-1z" />
+  <path fill="#064CAF" d="M8 17h1v3h-1z M17 17h1v6h-1z M26 17h1v3h-1z M11 20h1v3h-1z M23 20h1v3h-1z M14 23h1v1h-1z M20 23h1v1h-1z" />
+  <path fill="#081F47" d="M2 24h1v2h-1z M29 24h1v2h-1z M3 25h1v2h-1z M28 25h1v2h-1z M4 26h1v2h-1z M27 26h1v2h-1z M5 27h1v2h-1z M26 27h1v2h-1z M6 28h1v2h-1z M25 28h1v2h-1z M7 29h2v1h-2z M23 29h2v1h-2z M8 30h16v1h-16z" />
+  <path fill="#0D3275" d="M8 1h16v1h-16z M6 2h3v1h-3z M23 2h3v1h-3z M5 3h2v1h-2z M25 3h2v1h-2z M4 4h2v1h-2z M26 4h2v1h-2z M3 5h2v1h-2z M27 5h2v1h-2z M2 6h2v1h-2z M28 6h2v1h-2z M2 7h1v2h-1z M29 7h1v2h-1z" />
+  <path fill="#0F3F91" d="M3 24h8v1h-8z M15 24h2v6h-2z M21 24h8v1h-8z M4 25h7v1h-7z M21 25h7v1h-7z M5 26h10v1h-10z M17 26h10v1h-10z M6 27h9v1h-9z M17 27h9v1h-9z M7 28h8v1h-8z M17 28h8v1h-8z M9 29h6v1h-6z M17 29h6v1h-6z" />
+  <path fill="#102F69" d="M1 8h1v16h-1z M30 8h1v16h-1z M2 23h1v1h-1z M29 23h1v1h-1z" />
+  <path fill="#195CBC" d="M2 17h3v6h-3z M9 17h5v3h-5z M18 17h5v3h-5z M27 17h3v6h-3z M5 20h3v4h-3z M12 20h2v3h-2z M18 20h2v3h-2z M24 20h3v4h-3z M3 23h2v1h-2z M8 23h3v1h-3z M15 23h2v1h-2z M21 23h3v1h-3z M27 23h2v1h-2z" />
+  <path fill="#196CC7" d="M8 9h1v8h-1z M26 9h1v8h-1z M17 14h1v3h-1z" />
+  <path fill="#1F9FF7" d="M8 8h1v1h-1z M26 8h1v1h-1z" />
+  <path fill="#2D7CD3" d="M2 9h3v8h-3z M9 9h14v5h-14z M27 9h3v8h-3z M9 14h5v3h-5z M18 14h5v3h-5z" />
+  <path fill="#41A7ED" d="M9 3h13v6h-13z M8 4h1v4h-1z M22 4h2v4h-2z M7 5h1v3h-1z M24 5h1v3h-1z M6 6h1v2h-1z M25 6h1v2h-1z M5 7h1v1h-1z M26 7h1v1h-1z M4 8h1v1h-1z M22 8h1v1h-1z M27 8h1v1h-1z" />
+  <path fill="#5CB3EF" d="M9 2h14v1h-14z M7 3h2v1h-2z M22 3h3v1h-3z M6 4h2v1h-2z M24 4h2v1h-2z M5 5h2v1h-2z M25 5h2v1h-2z M4 6h2v1h-2z M26 6h2v1h-2z M3 7h2v1h-2z M27 7h2v1h-2z M3 8h1v1h-1z M28 8h1v1h-1z" />
+  <path fill="#FFFDFC" d="M5 8h3v12h-3z M23 8h3v12h-3z M14 14h3v9h-3z M8 20h3v3h-3z M20 20h3v3h-3z M11 23h3v3h-3z M17 23h3v3h-3z" />
+</svg>
