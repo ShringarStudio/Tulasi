@@ -1,7 +1,8 @@
 # Tulasi
 ### The most aesthetic icon pack for Linux. designed by an artist.
 
-<img width="5643" height="1620" alt="Cover" src="https://github.com/user-attachments/assets/9b0b648a-951a-4963-ba4e-804184629b2c" />
+<img width="4860" height="1396" alt="Branding" src="https://github.com/user-attachments/assets/aa8a192d-5476-420a-8a6e-ed6d09fc9f31" />
+
 
 Tulasi is a handcrafted 32x32 pixel art icon pack for Linux desktops. Every single icon is drawn pixel by pixel in Aseprite, built with a uniform silhouette and a tactile visual grammar.
 
@@ -43,7 +44,7 @@ The CMake icon in Tulasi doesn't just copy the standard geometric logo. The cent
 
 What started as a small personal project quickly turned into an open source community effort. 
 
-Within 48 hours of posting the concept on Reddit, the post reached over 120,000 views, 600+ upvotes, and hundreds of encouraging comments from people who wanted better design on the Linux desktop. Tulasi was also picked up and featured on Chinese Linux and tech websites, bringing total impressions past 130,000 worldwide. 
+Within 48 hours of posting the concept on Reddit, the post reached over 140,000 views, 900+ upvotes, and hundreds of encouraging comments from people who wanted better design on the Linux desktop. Tulasi was also picked up and featured on Chinese Linux and tech websites, bringing total impressions past 170,000 worldwide. 
 
 Seeing people star the repo, use it in their desktop rices, and even create community forks while I had to temporarily step away due to family hardship is the reason this project is back and officially moving out of alpha into its first full release.
 
@@ -53,9 +54,7 @@ Seeing people star the repo, use it in their desktop rices, and even create comm
 
 * **Tulasi (Full Theme):** Contains the complete icon set, including application icons, folders, places, actions, and system status glyphs. Ideal for KDE Plasma, XFCE, and deeply customizable environments.
 * **Tulasi-Gnome:** An applications-only version tailored specifically for GNOME Shell. It only skins third-party applications and leaves your native Adwaita folders, top bar, and shell chrome untouched.
-* **tulasi.Noir:** A high-contrast monochromatic version built for dark mode, OLED screens, and minimal tiling setups. Every icon is mapped using perceptual luminance math ($Y = 0.299R + 0.587G + 0.114B$) to stay clear and recognizable. It links directly into KDE text and accent colors.
-
----
+* **Tulasi.Noir:** A high-contrast monochromatic version built for dark mode, OLED screens, and minimal tiling setups. [Tulasi.Noir](https://github.com/shringarstudio/tulasi.noir)
 
 ## What is New in Release 01
 
@@ -112,6 +111,8 @@ If an application you use is missing an icon:
 ---
 
 ## Supporting the Project
+
+<img width="4860" height="1253" alt="Support Tulasi1" src="https://github.com/user-attachments/assets/5df9c52b-dc14-4c63-afc7-be669ff3220a" />
 
 Tulasi is free and will always remain free.
 
