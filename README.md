@@ -53,7 +53,7 @@ Tulasi was created to fix that cognitive load. By giving every application an id
 
 ### 🌸 Support Tulasi Development
 
-<img width="4860" height="1253" alt="Support Tulasi1" src="https://github.com/user-attachments/assets/5df9c52b-dc14-4c63-afc7-be669ff3220a" />
+<img width="4860" height="1253" alt="Support1 Tulasi" src="https://github.com/user-attachments/assets/437face8-2ce1-44c4-9d29-eef9d980104f" />
 
 
 
