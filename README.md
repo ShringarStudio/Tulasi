@@ -32,6 +32,8 @@ If you are looking for an aesthetic Linux icon theme, a consistent pixel art sty
   
 ---
 
+
+
 ## Why Tulasi Exists
 
 I grew up on Windows. But over the last few years, watching the system degrade with forced telemetry, bloat, instability, and intrusive AI slop made me want to get away. I wanted to own my machine again and support open source software, and that brought me to Linux.
@@ -47,7 +49,27 @@ Tulasi was created to fix that cognitive load. By giving every application an id
 
 ---
 
-## Design Language: Tactile & Meaningful
+
+
+### 🌸 Support Tulasi Development
+
+<img width="4860" height="1253" alt="Support Tulasi1" src="https://github.com/user-attachments/assets/5df9c52b-dc14-4c63-afc7-be669ff3220a" />
+
+
+
+Tulasi is free, open source, and drawn pixel by pixel. If you’d like to support active development and request icons or have the means to sponsor an indie project, you can support the project on
+
+[![Support on Gumroad](https://img.shields.io/badge/Support_on-Gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=black)](https://shringarstudio.gumroad.com/l/Tulasi) 
+
+or reach out to me at notonlinux@gmail.com
+
+*Every contribution directly buys time to draw more app icons and maintain releases.*
+
+
+---
+
+
+## *Tulasi's Design Language: Tactile & Meaningful*
 
 Icons shouldn't feel like flat, sterile vector templates, and they shouldn't intimidate users. Tulasi icons are drawn with depth and subtle borders so they feel tangible and tactile on your screen. More importantly, each icon is designed to communicate what the software actually represents.
 
@@ -114,19 +136,6 @@ If an application you use is missing an icon:
    * The software name.
    * The desktop entry icon line (found via `grep "^Icon=" /usr/share/applications/<app>.desktop`).
    * How you installed it (native repo, Flatpak, or Snap).
-
----
-
-## Supporting the Project
-
-<img width="4860" height="1253" alt="Support Tulasi1" src="https://github.com/user-attachments/assets/5df9c52b-dc14-4c63-afc7-be669ff3220a" />
-
-Tulasi is free and will always remain free.
-
-If you enjoy the icon pack and want to help me continue working on it, you can support the project on (coming soon)
-
-That being said. being 19 and broke financially. The last few months were uncertain and that struggle nearly killed this project.
-If you cannot support financially, starring the repository or sharing Tulasi with other Linux users helps just as much.
 
 ---
 
